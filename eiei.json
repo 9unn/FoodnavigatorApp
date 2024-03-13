@@ -1,6 +1,6 @@
 [
-  { "id": "1", "title": "Fran's", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/frans.jpeg" },
-  { "id": "2", "title": "Pasta Ama", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/ama.jpg-large.jpeg"  },
-  { "id": "3", "title": "Khao soi", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/khaosoi.jpeg"  },
-  { "id": "4", "title": "Fat boy", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/fatboy.jpeg"  }
+  { "id": "1", "title": "Restaurant", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/frans.jpeg" },
+  { "id": "2", "title": "Cafe & Dessert", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/ama.jpg-large.jpeg"  },
+  { "id": "3", "title": "Bars", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/khaosoi.jpeg"  },
+  { "id": "4", "title": "Japanese Restaurant", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/fatboy.jpeg"  }
 ]
