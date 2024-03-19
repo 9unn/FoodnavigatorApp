@@ -1,11 +1,11 @@
 [
-  { "id": "1", "title": "TAI ER", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/tai-er.webp" },
-  { "id": "2", "title": "Horsamut", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/horsamut.webp"  },
-  { "id": "3", "title": "Garret Fish & Chips", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/chips.jpeg"  },
-  { "id": "4", "title": "Camin Cuisine & Cafe", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/camin.jpeg"  },
-  { "id": "5", "title": "Fat Boy", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/fatboy.jpeg"  },
-  { "id": "6", "title": "Akiyoshi", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/akiyoshi.jpeg" },
-  { "id": "7", "title": "Kongju Restaurant at Pathumwan Princess Hotel", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/kongju.jpeg"  },
-  { "id": "8", "title": "Fran's", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/frans.jpeg"  }
+  { "id": "1", "title": "Third House Cafe", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/tai-er.webp" },
+  { "id": "2", "title": "Dawn to Dusk - Bkk", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/horsamut.webp"  },
+  { "id": "3", "title": "Brooks Brunch & Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/chips.jpeg"  },
+  { "id": "4", "title": "Bees Thing and Flower", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/camin.jpeg"  },
+  { "id": "5", "title": "Com’on Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/fatboy.jpeg"  },
+  { "id": "6", "title": "Summer Rain Café", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/akiyoshi.jpeg" },
+  { "id": "7", "title": "Buddha & Pals", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/kongju.jpeg"  },
+  { "id": "8", "title": "Ang Yi", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/frans.jpeg"  }
   
 ]
