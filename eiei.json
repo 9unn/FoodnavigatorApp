@@ -1,6 +1,11 @@
 [
-  { "id": "1", "title": "Restaurant", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/somtum.jpeg" },
-  { "id": "2", "title": "Cafe & Dessert", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/cafe.jpeg"  },
-  { "id": "3", "title": "Bars", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/assets/week1/bar.jpeg"  },
-  { "id": "4", "title": "Japanese Restaurant", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/fatboy.jpeg"  }
+  { "id": "1", "title": "TAI ER", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/tai-er.webp" },
+  { "id": "2", "title": "Horsamut", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/horsamut.webp"  },
+  { "id": "3", "title": "Garret Fish & Chips", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/chips.jpeg"  },
+  { "id": "4", "title": "Camin Cuisine & Cafe", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/camin.jpeg"  },
+  { "id": "5", "title": "Fat Boy", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/fatboy.jpeg"  },
+  { "id": "6", "title": "Akiyoshi", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/akiyoshi.jpeg" },
+  { "id": "7", "title": "Kongju Restaurant at Pathumwan Princess Hotel", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/kongju.jpeg"  },
+  { "id": "8", "title": "Fran's", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/frans.jpeg"  }
+  
 ]
