@@ -23,8 +23,6 @@ export default function Collections(props) {
         loadOnlineReccommend();
     }, []);
 
-
-
         return (
 
             <View style={props.style}>

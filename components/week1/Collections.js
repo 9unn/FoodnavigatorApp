@@ -5,8 +5,6 @@ import { FontAwesome } from "@expo/vector-icons";
 
 export default function Collections(props) {
 
-
-
         return (
 
             <View style={props.style}>
@@ -56,7 +54,7 @@ export default function Collections(props) {
                     </View>
 
                     <View style={{backgroundColor: 'lightgrey', borderRadius:10, width:780 , justifyContent:'center',opacity: 0.5}}>
-                        <Button title="View All" color="black" />
+                        <Button title="View All" color="black" onPress={()=>{ navigation.navigate("Restaurant"); }}/>
                     </View>
 
                  

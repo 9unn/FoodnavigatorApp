@@ -4,6 +4,8 @@ import Home from '../../components/week1/Home';
 import Collections from '../../components/week1/Collections';
 import Menu from '../../components/week1/Menu';
 import Vibes from '../../components/week1/Vibes';
+import Restaurant from '../../components/week2/Restaurant';
+
 
 
 
@@ -16,12 +18,14 @@ export default function Find() {
                 <Menu />
                 <Collections/>
                 <Vibes />
-               
+
                
             </View>
             
                 
         </ScrollView>
+
+        
 
     
     );
