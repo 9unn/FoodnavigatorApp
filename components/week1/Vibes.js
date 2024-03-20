@@ -9,7 +9,7 @@ export default function Collections(props) {
 
     const loadOnlineReccommend = async () => {
         try{
-            let promise = await fetch('https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/eiei.json');
+            let promise = await fetch('https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/vv.json');
             let data = await promise.json();
             console.log("Load Data : " , data);
           //SET STATE
@@ -22,18 +22,19 @@ export default function Collections(props) {
     useEffect(() => {
         loadOnlineReccommend();
     }, []);
-    
+
+
 
         return (
 
             <View style={props.style}>
                 <View style={{flexDirection: 'column'}}>
                    <View style={{flexDirection: 'row'}}>
-                        <Text style={{paddingLeft: 10, fontSize: 25, fontWeight: 'bold', marginTop: 85}}>Recommended for you</Text>
+                        <Text style={{paddingLeft: 10, fontSize: 25, fontWeight: 'bold', marginTop: 50}}>#Vibes</Text>
                    </View>
                    
                    <View style={{flexDirection: 'row'}}>
-                        <Text style={{padding: 10, fontSize: 18, color: 'gray'}}>Find the best Restaurant, Cafe and Bars </Text>
+                        <Text style={{padding: 10, fontSize: 18, color: 'gray'}}>Let the rhythm of life guide you to a place where every moment is filled with joy and possibility.</Text>
                    </View>
                    
                    <FlatList 
@@ -41,19 +42,22 @@ export default function Collections(props) {
                         horizontal={true}
                     
                         data={onlineReccommend}
-
+                       
                         renderItem={
                             ({ item, index }) => {
                                 console.log(item, index, item.uri);
                                 return (
                                 
                                     <View style={{marginTop: 20}}>
-                                        <Image style={{width : 300,height: 250, borderRadius: 1,marginRight: 20}} source={{uri: item.uri}}/>
+                                        <Image style={{width : 150,height: 200,  marginRight: 20,borderRadius:5}} source={{uri: item.uri}}/>
 
-                                        <View style={{ marginTop : -50, height : 30 , width: 300, backgroundColor : 'black', opacity : 0.5, borderBottomLeftRadius : 10 , borderBottomRightRadius : 10}}>
-                                            <Text style={{ fontSize:20, color : "white"}}>{item.title}</Text>
+                                        <View style={{ marginTop : -40, height : 50 , width: 150}}>
+                                            <Text style={{ fontSize:16, color : "white",fontWeight: 'bold', padding:10}}>{item.title}</Text>
                                         </View>   
+
                                     </View>
+
+
                                     
                                 );
                             }
@@ -61,6 +65,8 @@ export default function Collections(props) {
                         keyExtractor={item => item.id}
 
                     />
+
+
 
 
                 </View>
