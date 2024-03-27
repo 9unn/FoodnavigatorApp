@@ -1,0 +1,9 @@
+[
+  { "id": "1", "title": "I C I", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/ici.jpeg", "place" : "Bangkok" },
+  { "id": "2", "title": "Custard Nakamura", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/custard.jpeg", "place" : "Bangkok"   },
+  { "id": "3", "title": "Landhaus Bakery", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/landhuas.jpeg", "place" : "Bangkok"   },
+  { "id": "4", "title": "Kler Baker", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/kler.jpeg", "place" : "Bangkok"  },
+  { "id": "5", "title": "Kokopan", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/koko.jpeg", "place" : "Patumwan, Bangkok"   },
+  { "id": "6", "title": "Baker Bricks", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/Baker-Bricks.jpeg", "place" : "Watthana, Bangkok"   }
+  
+]
