@@ -1,0 +1,11 @@
+[
+  { "id": "1", "title": "Mcdonald's", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/tai-er.webp", "place": "Bangkok" },
+  { "id": "2", "title": "Texas Chicken", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/horsamut.webp", "place": "Bangkok"  },
+  { "id": "3", "title": "Subway", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/chips.jpeg", "place": "Bangkok"  },
+  { "id": "4", "title": "Urban Pizza", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/camin.jpeg", "place": "Bangkok" },
+  { "id": "5", "title": "BONCHON CHICKEN", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/fatboy.jpeg", "place": "Bangkok"  },
+  { "id": "6", "title": "Carl's Jr.", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/akiyoshi.jpeg", "place": "Bangkok" },
+  { "id": "7", "title": "Krispy Kreme", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/kongju.jpeg", "place": "Bangkok"  },
+  { "id": "8", "title": "Daniel Thai", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/frans.jpeg", "place": "Bangkok" }
+  
+]
