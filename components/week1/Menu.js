@@ -6,11 +6,14 @@ import { Ionicons } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useNavigation } from "@react-navigation/native";
 import Icon from './Icon';
+import { FontAwesome6 } from '@expo/vector-icons';
 
 
 
 export default function Menu() {
-    const navigation = useNavigation();
+
+    const navigation = useNavigation(); 
+    
         return (
             <View style={{flexDirection: 'row', justifyContent: 'space-around', marginTop:75}}>
 
@@ -30,8 +33,8 @@ export default function Menu() {
                 </View>
 
                 <View style={{alignItems: 'center'}}>
-                    <MaterialCommunityIcons name="cupcake" size={28} color="black" onPress={()=>{ navigation.navigate("Dessert"); }}/>
-                    <Text style={{paddingTop: 5}}>Dessert</Text>
+                    <FontAwesome6 name="bread-slice" size={28} color="black" onPress={()=>{ navigation.navigate("Bakery"); }}/>
+                    <Text style={{paddingTop: 5}}>Bakery</Text>
                 </View>
 
                 <View style={{alignItems: 'center'}}>

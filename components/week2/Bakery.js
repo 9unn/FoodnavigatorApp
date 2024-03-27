@@ -5,24 +5,25 @@ import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
 
-export default function Fastfood(props) {
-    
-    const [onlineFastfood, setOnlineFastfood] = useState([]);   
+export default function Bakery(props) {
 
-    const loadOnlineFastfood = async () => {
+
+    const [onlineBakery, setOnlineBakery] = useState([]);   
+
+    const loadOnlineBakery = async () => {
         try{
-            let promise = await fetch('https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/fast.json');
+            let promise = await fetch('https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/bakery.json');
             let data = await promise.json();
             console.log("Load Data : " , data);
           //SET STATE
-            setOnlineFastfood(data);
+            setOnlineBakery(data);
         }catch(error){
             console.log("ERROR : " , error);
         }
     }  
 
     useEffect(() => {
-        loadOnlineFastfood();
+        loadOnlineBakery();
     }, []);
     
     
@@ -31,9 +32,9 @@ export default function Fastfood(props) {
         <View style={{flex:1}}>
             <View style={props.style}>          
 
-                {/* <Text style={{ fontSize: 28, fontWeight: 'bold', padding: 50, alignSelf: 'center'}}>Fastfood</Text> */}
+                {/* <Text style={{ fontSize: 28, fontWeight: 'bold', padding: 50, alignSelf: 'center'}}>Dessert</Text> */}
                 
-                <View style={{alignSelf: 'center', borderColor: 'grey',flexDirection : "row", borderRadius: 20, width: 500, height: 50, borderWidth: 1, justifyContent: 'center',alignItems: 'center',marginTop: 35}}>
+                <View style={{alignSelf: 'center', borderColor: 'grey',flexDirection : "row", borderRadius: 20, width: 500, height: 50, borderWidth: 1, justifyContent: 'center',alignItems: 'center',marginTop:35}}>
                     <FontAwesome style={{}} name="search" size={20} color="black" />
                     <TextInput style={{ fontSize : 10, color : 'gray' }}> Search </TextInput>
                 </View>
@@ -44,7 +45,7 @@ export default function Fastfood(props) {
 
                     horizontal={false}
                     // data={tours}
-                    data={onlineFastfood}
+                    data={onlineBakery}
 
                     renderItem={
                         ({ item, index }) => {

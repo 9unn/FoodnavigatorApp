@@ -33,9 +33,11 @@ export default function Restaurant(props) {
         <View style={{flex:1}}>
             <View style={props.style}>          
 
-                <Text style={{ fontSize: 28, fontWeight: 'bold', padding: 50, alignSelf: 'center'}}>Restaurant</Text>
+                {/* <Text style={{ fontSize: 28, fontWeight: 'bold', padding: 50, alignSelf: 'center'}}>Restaurant</Text> */}
+
                 
-                <View style={{alignSelf: 'center', borderColor: 'grey',flexDirection : "row", borderRadius: 20, width: 500, height: 50, borderWidth: 1, justifyContent: 'center',alignItems: 'center'}}>
+                
+                <View style={{alignSelf: 'center', borderColor: 'grey',flexDirection : "row", borderRadius: 20, width: 500, height: 50, borderWidth: 1, justifyContent: 'center',alignItems: 'center', marginTop:35}}>
                     <FontAwesome style={{}} name="search" size={20} color="black" />
                     <TextInput style={{ fontSize : 10, color : 'gray' }}> Search </TextInput>
                 </View>
@@ -53,6 +55,7 @@ export default function Restaurant(props) {
                             console.log(item, index, item.uri);
                             return (
                                 <View style={{flex:1,flexDirection: 'row',marginRight: 10, alignSelf:'center', paddingTop:50}}>
+
 
                                     <Image style={{width : 200,height: 150, borderBottomLeftRadius:10,borderTopLeftRadius: 10 }} source={{uri: item.uri}}/>
                                     

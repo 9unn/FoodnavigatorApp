@@ -6,6 +6,7 @@ import Find from './screens/week1/Find';
 import { NavigationContainer } from '@react-navigation/native';
 import BottomTab from './components/week1/BottomTab';
 import Restaurant from './components/week2/Restaurant';
+import RootStack from './navigations/RootStack';
 
 
 
@@ -14,7 +15,7 @@ export default function App() {
   return (
      
     <NavigationContainer>
-      <BottomTab />
+      <RootStack />
     </NavigationContainer>
     
    
