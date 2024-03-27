@@ -1,10 +1,10 @@
 [
   { "id": "1", "title": "Glamper Coffee and Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/third.webp", "place" : "Phra Pradaeng, Samut Prakan" },
-  { "id": "2", "title": "Dawn to Dusk", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/dawn.webp", "place" : "Bkk, Bangkok"   },
-  { "id": "4", "title": "Summer Rain Cafe ", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/summer.jpeg", "place" : "Lak Si, Bangkok"   },
-  { "id": "5", "title": "Bees Things and Flower ", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/bees.jpeg", "place" : "Pom Prap Sattru Phai, Bangkok "   },
-  { "id": "6", "title": "Com’on Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/com'on.jpeg", "place" : " Pathum Wan, Bangkok "  },
-  { "id": "7", "title": "Buddha & Pals Café and Jazz", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/buddha.jpeg", "place" : "Sattru Phai, Bangkok"   },
-  { "id": "8", "title": "Ang Yi", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/ang.webp", "place" : "Yaowarat, Bangkok"   }
+  { "id": "2", "title": "HOLIDAY PASTRY Flagship Store", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/dawn.webp", "place" : "Khlong San, Bangkok"   },
+  { "id": "4", "title": "Sydny", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/summer.jpeg", "place" : "Taling Chan, Bangkok"   },
+  { "id": "5", "title": "DROP BY DOUGH", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/bees.jpeg", "place" : "Bang Na, Bangkok"   },
+  { "id": "6", "title": "TANGIBLE", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/com'on.jpeg", "place" : "Bang Kho Laem, Bangkok"  },
+  { "id": "7", "title": "LYNX Coffee", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/buddha.jpeg", "place" : "Thonburi, Bangkok"   },
+  { "id": "8", "title": "Craftsman Roastery & Brew Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/ang.webp", "place" : "Bang Kho Laem, Bangkok"   }
   
 ]
