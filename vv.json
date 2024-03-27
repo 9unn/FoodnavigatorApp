@@ -1,0 +1,10 @@
+[
+  { "id": "1", "title": "Third House Cafe", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/third.webp" },
+  { "id": "2", "title": "Dawn to Dusk - Bkk", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/dawn.webp"  },
+  { "id": "3", "title": "Brooks Brunch & Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/brooks.jpeg"  },
+  { "id": "4", "title": "Bees Thing and Flower", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/bees.jpeg"  },
+  { "id": "5", "title": "Com’on Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/com'on.jpeg"  },
+  { "id": "6", "title": "Summer Rain Café", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/summer.jpeg" },
+  { "id": "7", "title": "Buddha & Pals", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/buddha.jpeg"  },
+  { "id": "8", "title": "Ang Yi", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/ang.webp"  }  
+]
