@@ -1,0 +1,10 @@
+[
+  { "id": "1", "title": "Glamper Coffee and Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/glamper.jpeg", "place" : "Phra Pradaeng, Samut Prakan" },
+  { "id": "2", "title": "HOLIDAY PASTRY Flagship Store", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/holiday%20.jpeg", "place" : "Khlong San, Bangkok"   },
+  { "id": "4", "title": "Sydny", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/sydny.webp", "place" : "Taling Chan, Bangkok"   },
+  { "id": "5", "title": "DROP BY DOUGH", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/drop.jpeg", "place" : "Bang Na, Bangkok"   },
+  { "id": "6", "title": "TANGIBLE", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/tang.jpeg", "place" : "Bang Kho Laem, Bangkok"  },
+  { "id": "7", "title": "LYNX Coffee", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/lynx.jpeg", "place" : "Thonburi, Bangkok"   },
+  { "id": "8", "title": "Craftsman Roastery & Brew Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/craft.jpeg", "place" : "Bang Kho Laem, Bangkok"   }
+  
+]
