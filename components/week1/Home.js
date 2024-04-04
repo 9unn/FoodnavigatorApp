@@ -1,9 +1,12 @@
 import React from 'react';
-import { Image, Text, View } from "react-native";
+import { Button, Image, Text, TextInput, View } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/native";
 
 
 export default function Home() {
+
+    const navigation = useNavigation(); 
 
         return (
 
@@ -15,12 +18,14 @@ export default function Home() {
 
                 <View style={{ flexDirection : "row", marginTop : -100 , borderRadius: 20, width: 500, height: 50, backgroundColor: 'white', justifyContent: 'center',alignItems: 'center', marginLeft: 250 }}>
                     <FontAwesome style={{ }} name="search" size={20} color="black" />
-                    <Text style={{ fontSize : 10, color : 'gray' }}> Search..</Text>
+                    <TextInput style={{ fontSize : 10, color : 'gray' }}> Search..</TextInput>
                 </View>
 
                 <View style={{ flexDirection : "row", marginTop : -50 , borderRadius: 20, width: 150, height: 50, backgroundColor: 'white', justifyContent: 'center',alignItems: 'center', marginLeft: 50 }}>
-                    <FontAwesome style={{ }} name="map-marker" size={20} color="red" />
-                    <Text style={{ fontSize : 10, color : 'gray' }}> Location </Text>
+                    <FontAwesome style={{ }} name="map-marker" size={25} color="red"  />
+                    <Button title="Find Me" fontSizesize="10" color="grey"  onPress={()=>{ navigation.navigate("Location"); }}/>
+                    
+        
                 </View>
 
                 

@@ -31,7 +31,7 @@ export default function Cafe(props) {
         <View style={{flex:1}}>
             <View style={props.style}>          
 
-                {/* <Text style={{ fontSize: 28, fontWeight: 'bold', padding: 50, alignSelf: 'center'}}>Cafe</Text> */}
+                {/* <Text style={{ fontSize: 28, fontWeight: 'bold', padding: 50, alignSelf: 'center'}}>Bar</Text> */}
                 
                 <View style={{alignSelf: 'center', borderColor: 'grey',flexDirection : "row", borderRadius: 20, width: 500, height: 50, borderWidth: 1, justifyContent: 'center',alignItems: 'center',marginTop: 35}}>
                     <FontAwesome style={{}} name="search" size={20} color="black" />

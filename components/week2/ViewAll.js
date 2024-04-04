@@ -5,24 +5,24 @@ import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
 
-export default function Bakery(props) {
+export default function ViewAll(props) {
     
-    const [onlineBakery, setOnlineBakery] = useState([]);   
+    const [onlineViewAll, setOnlineViewAll] = useState([]);   
 
-    const loadOnlineBakery = async () => {
+    const loadOnlineViewAll = async () => {
         try{
-            let promise = await fetch('https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/gookgook.json');
+            let promise = await fetch('https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/viewall.json');
             let data = await promise.json();
             console.log("Load Data : " , data);
           //SET STATE
-            setOnlineBakery(data);
+            setOnlineViewAll(data);
         }catch(error){
             console.log("ERROR : " , error);
         }
     }  
 
     useEffect(() => {
-        loadOnlineBakery();
+        loadOnlineViewAll();
     }, []);
     
     
@@ -31,7 +31,7 @@ export default function Bakery(props) {
         <View style={{flex:1}}>
             <View style={props.style}>          
 
-                {/* <Text style={{ fontSize: 28, fontWeight: 'bold', padding: 50, alignSelf: 'center'}}>Bakery</Text> */}
+                {/* <Text style={{ fontSize: 28, fontWeight: 'bold', padding: 50, alignSelf: 'center'}}>ViewAll</Text> */}
                 
                 <View style={{alignSelf: 'center', borderColor: 'grey',flexDirection : "row", borderRadius: 20, width: 500, height: 50, borderWidth: 1, justifyContent: 'center',alignItems: 'center',marginTop: 35}}>
                     <FontAwesome style={{}} name="search" size={20} color="black" />
@@ -44,7 +44,7 @@ export default function Bakery(props) {
 
                     horizontal={false}
                     // data={tours}
-                    data={onlineBakery}
+                    data={onlineViewAll}
 
                     renderItem={
                         ({ item, index }) => {
@@ -74,7 +74,6 @@ export default function Bakery(props) {
         </View>
     );
 }
-
 
 
 

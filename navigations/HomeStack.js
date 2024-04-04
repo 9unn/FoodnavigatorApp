@@ -3,7 +3,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../components/week1/Home';
 import Restaurant from '../components/week2/Restaurant';
 import Cafe from '../components/week2/Cafe';
-import Dessert from '../components/week2/Bakery';
 import Bakery from '../components/week2/Bakery';
 
 

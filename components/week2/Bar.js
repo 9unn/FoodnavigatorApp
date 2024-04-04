@@ -11,7 +11,7 @@ export default function Bar(props) {
 
     const loadOnlineBar = async () => {
         try{
-            let promise = await fetch('https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/gookgook.json');
+            let promise = await fetch('https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/bestbar.json');
             let data = await promise.json();
             console.log("Load Data : " , data);
           //SET STATE

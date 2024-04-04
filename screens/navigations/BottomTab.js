@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 import { FontAwesome } from "@expo/vector-icons";
 import Home from './Home';
-import Search from '../../screens/week3/Search';
+import Search from '../week3/Search';
 import User from '../../screens/week3/User';
 import Find from '../../screens/week1/Find';
 

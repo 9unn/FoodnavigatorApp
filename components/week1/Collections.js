@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Button, FlatList, Image, Text, View } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/native";
 
 
 export default function Collections(props) {
 
+    const navigation = useNavigation(); 
+    
         return (
 
             <View style={props.style}>
@@ -54,7 +57,7 @@ export default function Collections(props) {
                     </View>
 
                     <View style={{backgroundColor: 'lightgrey', borderRadius:10, width:780 , justifyContent:'center',opacity: 0.5}}>
-                        <Button title="View All" color="black" onPress={()=>{ navigation.navigate("Restaurant"); }}/>
+                        <Button title="View All" color="black" onPress={()=>{ navigation.navigate("ViewAll"); }}/>
                     </View>
 
                  
