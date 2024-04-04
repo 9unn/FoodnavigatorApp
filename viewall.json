@@ -1,0 +1,26 @@
+[
+  { "id": "1", "title": "Mcdonald's", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/mc.webp", "place": "Bangkok" },
+  { "id": "2", "title": "Texas Chicken", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/texas.jpg", "place": "Bangkok"  },
+  { "id": "3", "title": "Subway", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/subway.jpeg", "place": "Bangkok"  },
+  { "id": "4", "title": "Urban Pizza", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/urban%20pizza.jpg", "place": "Bangkok" },
+  { "id": "5", "title": "BONCHON CHICKEN", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/bonchon.jpg", "place": "Bangkok"  },
+  { "id": "6", "title": "Carl's Jr.", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/carl's%20jr..jpg", "place": "Bangkok" },
+  { "id": "7", "title": "Krispy Kreme", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/krispy%20kreme.jpg", "place": "Bangkok"  },
+  { "id": "8", "title": "Daniel Thai", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/daniel.webp", "place": "Bangkok" },
+  { "id": "9", "title": "Third House Cafe", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/third.webp","place": "Bangkok" },
+  { "id": "10", "title": "Dawn to Dusk - Bkk", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/dawn.webp","place": "Bangkok"  },
+  { "id": "11", "title": "Brooks Brunch & Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/brooks.jpeg","place": "Bangkok"  },
+  { "id": "12", "title": "Bees Thing and Flower", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/bees.jpeg","place": "Bangkok"  },
+  { "id": "13", "title": "Com’on Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/com'on.jpeg","place": "Bangkok"  },
+  { "id": "14", "title": "Summer Rain Café", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/summer.jpeg","place": "Bangkok" },
+  { "id": "15", "title": "Buddha & Pals", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/buddha.jpeg","place": "Bangkok"  },
+  { "id": "16", "title": "Ang Yi", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/ang.webp" ,"place": "Bangkok"  }, 
+  { "id": "17", "title": "Glamper Coffee and Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/glamper.jpeg", "place" : "Phra Pradaeng, Samut Prakan" },
+  { "id": "18", "title": "HOLIDAY PASTRY Flagship Store", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/holiday%20.jpeg", "place" : "Khlong San, Bangkok"   },
+  { "id": "19", "title": "Sydny", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/sydny.webp", "place" : "Taling Chan, Bangkok"   },
+  { "id": "20", "title": "DROP BY DOUGH", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/drop.jpeg", "place" : "Bang Na, Bangkok"   },
+  { "id": "21", "title": "TANGIBLE", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/tang.jpeg", "place" : "Bang Kho Laem, Bangkok"  },
+  { "id": "22", "title": "LYNX Coffee", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/lynx.jpeg", "place" : "Thonburi, Bangkok"   },
+  { "id": "23", "title": "Craftsman Roastery & Brew Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/craft.jpeg", "place" : "Bang Kho Laem, Bangkok"   }
+  
+]
