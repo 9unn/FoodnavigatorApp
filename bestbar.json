@@ -1,0 +1,9 @@
+[
+  { "id": "1", "title": "Middle Bar", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/middle%20bar.jpg", "place" : "Bangkok" },
+  { "id": "2", "title": "The Key Room No.72", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/the%20Key%20Room%20No.72.jpg", "place" : "Bangkok"   },
+  { "id": "3", "title": "Lost & Found", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/lost%20found.jpg", "place" : "Bangkok"   },
+  { "id": "4", "title": "Bluesmorr", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/bluesmorr.jpg", "place" : "Bangkok"  },
+  { "id": "5", "title": "Hidden Town", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/hidden%20Town.jpg", "place" : "Patumwan, Bangkok"   },
+  { "id": "6", "title": "Liberation", "uri": "https://raw.githubusercontent.com/9unn/FoodnavigatorApp/main/liberation.jpg", "place" : "Watthana, Bangkok"   }
+  
+]
