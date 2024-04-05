@@ -23,7 +23,7 @@ export default function Collections(props) {
                     <View style={{marginTop: 20 ,flexDirection:'row',paddingRight: -100}}>
                         <Image style={{width : 250,height: 150,borderRadius: 10,marginRight:15}} source={require('../../assets/week1/tai-er.webp')}/>
                             <View style={{flex: 1, marginTop : 75, height : 50 , width: 250}}>
-                                <Text style={{ fontSize:20, color : "white", padding:50, fontWeight: 'bold', marginLeft:-300}}>Tai Er</Text>
+                                <Text style={{ fontSize:20, color : "white", padding:50, fontWeight: 'bold', marginLeft:-300}} onPress={()=>{ navigation.navigate("TaiEr"); }}>Tai Er</Text>
                             </View>
 
                         <Image style={{width : 250,height: 150,borderRadius: 10,marginRight:15}} source={require('../../assets/week1/frans.jpeg')}/>

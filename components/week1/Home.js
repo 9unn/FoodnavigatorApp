@@ -18,7 +18,7 @@ export default function Home() {
 
                 <View style={{ flexDirection : "row", marginTop : -100 , borderRadius: 20, width: 500, height: 50, backgroundColor: 'white', justifyContent: 'center',alignItems: 'center', marginLeft: 250 }}>
                     <FontAwesome style={{ }} name="search" size={20} color="black" />
-                    <TextInput style={{ fontSize : 10, color : 'gray' }}> Search..</TextInput>
+                    <Button title="Search.." fontSizesize="10" color="grey"  onPress={()=>{ navigation.navigate("Search"); }}/>
                 </View>
 
                 <View style={{ flexDirection : "row", marginTop : -50 , borderRadius: 20, width: 150, height: 50, backgroundColor: 'white', justifyContent: 'center',alignItems: 'center', marginLeft: 50 }}>

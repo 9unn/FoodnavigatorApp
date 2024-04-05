@@ -21,7 +21,7 @@ export default function MyMapView(props) {
       console.log(error);
     }
   };
-  useEffect(() => { loadsearchmarkers(); }, []);
+  useEffect(() => { loadmarkers(); }, []);
 
 
   if (props.location) {
@@ -207,6 +207,7 @@ export default function MyMapView(props) {
         />      
         <Markers items={markers} />
       </MapView>
+
     );
   } else {
     //DISPLAY DEFAULT MAP on 0,0

@@ -9,9 +9,10 @@ import User from '../../screens/week3/User';
 import Find from '../../screens/week1/Find';
 
 
-
-
 const Tab = createBottomTabNavigator();
+
+
+
 
 export default function BottomTab() {
     return (

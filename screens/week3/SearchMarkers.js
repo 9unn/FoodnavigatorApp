@@ -2,7 +2,7 @@ import React from "react";
 import MapView, { Marker } from "react-native-maps";
 import { FontAwesome } from "@expo/vector-icons";
 
-export default function Markers(props) {
+export default function SearchMarkers(props) {
 
   return props.items.map((item) => (
     <Marker

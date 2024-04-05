@@ -10,6 +10,8 @@ import Bar from "../components/week2/Bar";
 import Location from "../screens/week10/Location";
 import ViewAll from "../components/week2/ViewAll";
 import Screen from "../screens/week3/Search";
+import Profile from "../screens/week3/Profile";
+import TaiEr from "../components/week3/TaiEr";
 
 
 
@@ -28,6 +30,9 @@ export default function RootStack() {
       <Stack.Screen name="Location" component={Location} />
       <Stack.Screen name="ViewAll" component={ViewAll} />
       <Stack.Screen name="Search" component={Screen} />
+      <Stack.Screen name="Profile" component={Profile} />
+      <Stack.Screen name="TaiEr" component={TaiEr} />
+
       
 
 
